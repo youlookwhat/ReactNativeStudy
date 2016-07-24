@@ -87,8 +87,8 @@ renderFooter(){
     return(
         // <TouchableOpacity style={{alignItems:'center',justifyContent:'center',margin:15,borderRadius:4,backgroundColor:"#a00",height:40}}>
         //     <Text style={{color:'#ffffff',fontSize:17}}> 推出</Text>
-        // </TouchableOpacity>
- //
+        // </TouchableOpacity
+
         <Text onPress ={()=>{ToastAndroid.show("11111",ToastAndroid.LONG)}}
             
         style={{flex:1,backgroundColor:"#a00",height:40,textAlign:'center',textAlignVertical:"center",borderRadius:10,margin:15}}>11111</Text>
